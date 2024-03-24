@@ -15,3 +15,9 @@ The world_directory parameter should be a path pointing to the folder you just c
 9) Place the objLdtkWorldManager object into a room into which you would like to load your world object.
    And set the path to your ldtk world file by setting the world_path parameter in the creation code.
 ![World manager setup](world-manager-setup.png)
+10) Open ldtk_config.json in your included files directory and set the project_directory value to the absolute path pointing to your gamemaker project root folder.
+Example on my local machine:
+![Config file setup](config-file-setup.png)
+
+The project should now start without errors.
+When you're in the room with the world object you should be able to press the world reload key (default is "0") and have the reload prompt text show up in the bottom right corner of the UI.

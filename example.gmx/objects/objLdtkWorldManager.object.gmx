@@ -310,7 +310,7 @@ if (current_level_index != -1)
     draw_set_alpha(1);
     __ldtk_iutil_draw_text_outline(
         4,
-        view_hport[0] - string_height(_reload_alert) - 4,
+        surface_get_height(application_surface) - string_height(_reload_alert) - 4,
         _reload_alert,
         make_color_hsv((current_time / 10) % 255, 128, 255),
         c_black);
