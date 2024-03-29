@@ -45,10 +45,20 @@ Chances are that you want to place a bunch of instances without customizing each
 2) Add a tileset to your LDtk world using the image you just added.
 ![LDtk tileset](tile-instances-ldtk-tileset.png)
 3) Click on each tile and add json containing an object index key containing the name of the object you want the tile to correspond with.
+![Binding object to tileset using JSON](tile-instances-json-binding.png)
 
+Tile instances are a lot easier to work with when you have a lot of instances to place.
+But you cannot change their individual variables or add lua scripts to them.
+To work around this you can create entities that you use when you need to customize them.
 
-### Tilemap bound instances (special)
+### Enum instances (special)
+You can tie instances to IntGrid layers as well. In those cases they will be based on LDtk Enums.
+These have the extra functionality to scale the objects that they contain to fit optimally within their area in order to optimize instance count.
+This behavior is best for wall objects and the like.
 
+1) Create a new enum layer
+2) Creata a new enum value and name it after the object want it to represent (you might have to change the identifiers format convention depending on the name of your object)
+![Create an enum](enum-instance-create-enum.png)
 ## Tiles
 
 ## Limitations

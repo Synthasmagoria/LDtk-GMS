@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,22 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (instance_number(object_index) &gt; 1) {
-    instance_destroy();
-    exit;
-}
-
-ldtk_init("worlds", objPlayer, scrKillPlayer);
-
-room_goto_next();
-instance_create(240, 16, objPlayer);
-texture_set_interpolation(false);
+            <string>view_enabled = true;
+view_visible[0] = true;
+view_wview[0] = 640;
+view_hview[0] = 352;
 </string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -57,20 +51,9 @@ texture_set_interpolation(false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check_pressed(vk_escape)) {
-    game_end();
-}
-
-if (keyboard_check_pressed(vk_f2)) {
-    game_restart();
-}
-
-if (keyboard_check_pressed(vk_f4)) {
-    window_set_fullscreen(!window_get_fullscreen());
-}
-
-if (keyboard_check_pressed(ord("R"))) {
-    room_restart();
+            <string>with (objPlayer) {
+    view_xview[0] = floor(x / view_wview[0]) * view_wview[0];
+    view_yview[0] = floor(y / view_hview[0]) * view_hview[0];
 }
 </string>
           </argument>

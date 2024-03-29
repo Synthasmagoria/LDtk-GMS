@@ -173,6 +173,7 @@
       <object>objects\objHazard</object>
     </objects>
     <object>objects\objPlayerStart</object>
+    <object>objects\objCamera</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rInit</room>
