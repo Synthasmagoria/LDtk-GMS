@@ -1,11 +1,12 @@
+# Install instructions
 1) Drag ldtk .gmez (gamemaker extension file) into IDE.
 2) Right-click on extension in IDE and open the properties.
 ![Open properties](open-properties.png)
 3) Import all the resources in the extension from the import tab in the properties window
 ![Import resources](import-resources.png)
 After completing this step a bunch of scripts, objects, and a included files should have appeared in you project.
-4) Drag Apollo .gmez into IDE
-5) Drag nsfs .gmez into IDE
+4) Drag Apollo .gmez into IDE (no importing required)
+5) Drag nsfs .gmez into IDE (no importing required)
 6) Create a directory for ldtk files in your project's included files by right clicking included files and adding a group
 7) Create an empty world in ldtk, save it, and then add it to the project through the IDE.
 Your included files directory (datafiles in the explorer) should now look like this:
@@ -21,3 +22,6 @@ Example on my local machine:
 
 The project should now start without errors.
 When you're in the room with the world object you should be able to press the world reload key (default is "0") and have the reload prompt text show up in the bottom right corner of the UI.
+
+See the troubleshooting guide if something goes wrong during the setup.
+In order to start placing objects into your LDtk world and load them into you room start following the "getting started" guide.

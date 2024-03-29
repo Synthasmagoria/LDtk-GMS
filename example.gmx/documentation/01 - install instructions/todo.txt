@@ -1,0 +1,6 @@
+todo:
+- Remove player kill script parameter in ldtk_init
+- Remove player object parameter in ldtk_init
+ldtkgms shouldn't manage the player.
+
+- 
