@@ -19,7 +19,14 @@ The world_directory parameter should be a path pointing to the folder you just c
 10) Open ldtk_config.json in your included files directory and set the project_directory value to the absolute path pointing to your gamemaker project root folder.
 Example on my local machine:
 ![Config file setup](config-file-setup.png)
+11) Finish reloading setup
+When running the game now you should get no errors. After ldtk_init() has been run there should be a new file called "save.bat" in your worlds folder (not in gamemaker but in your actual files). This file contains a command that needs to be run every time you save in LDtk. Luckily, LDtk has an option to run a command on every save.
+- Go to LDtk project settings -> User Custom Commands -> Custom commands
+- Add a new custom command, set it to run after saving.
+- Input "save.bat"
+![Calling save.bat](calling-savebat.png)
 
+In order to finish setting up LDtk live reloading you'll need to call
 The project should now start without errors.
 When you're in the room with the world object you should be able to press the world reload key (default is "0") and have the reload prompt text show up in the bottom right corner of the UI.
 

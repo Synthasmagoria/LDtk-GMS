@@ -57,16 +57,20 @@ texture_set_interpolation(false);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (keyboard_check_pressed(vk_enter)) {
-    room_restart();
+            <string>if (keyboard_check_pressed(vk_escape)) {
+    game_end();
 }
 
-if (keyboard_check_pressed(vk_escape)) {
-    game_end();
+if (keyboard_check_pressed(vk_f2)) {
+    game_restart();
 }
 
 if (keyboard_check_pressed(vk_f4)) {
     window_set_fullscreen(!window_get_fullscreen());
+}
+
+if (keyboard_check_pressed(ord("R"))) {
+    room_restart();
 }
 </string>
           </argument>
