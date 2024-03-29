@@ -39,6 +39,13 @@ Now you can write code that references your sprite
 Note that in order to reference the instance's sprite index you'll have to use "id". Just doing `sprite_index = sprPlayer` will not set the sprite_index. It boils down to "Lua is not GML". For further explanation see the Lua limitations document. By default in LDtk-gms you'll be able to reference all sprites, objects, sounds, rooms, scripts, and paths in Lua - see the lua bindings folder in ldtk gms scripts folder to see how this works (specifically lua_ref_resources_init).
 
 ### Tile instances (convenient)
+Chances are that you want to place a bunch of instances without customizing each one. Additionally, using entities can make the ui very cluttered. Using tilemaps for some objects is ideal for this.
+1) Add an image to your included files containing the visual assets for the objects you're going to be placing in the world.
+![Tile instances visual assets](tile-instances-visual-assets.png)
+2) Add a tileset to your LDtk world using the image you just added.
+![LDtk tileset](tile-instances-ldtk-tileset.png)
+3) Click on each tile and add json containing an object index key containing the name of the object you want the tile to correspond with.
+
 
 ### Tilemap bound instances (special)
 
