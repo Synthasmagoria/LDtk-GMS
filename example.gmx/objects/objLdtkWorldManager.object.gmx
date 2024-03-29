@@ -303,7 +303,8 @@ if (current_level_index != -1)
             <kind>1</kind>
             <string>if (!persistent)
 {
-    var _reload_alert = "Reloading LDtk file. Restart to apply changes.";
+    // TODO: Add an alert for when no changes were found during reload
+    var _reload_alert = "Reloading LDtk file. Restart room to apply changes.";
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     draw_set_color(c_white);

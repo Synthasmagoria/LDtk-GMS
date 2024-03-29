@@ -325,7 +325,10 @@
 							"fieldInstances": [
 								{ "__identifier": "object_index", "__type": "String", "__value": "objBlock", "__tile": null, "defUid": 3, "realEditorValues": [] },
 								{ "__identifier": "vspeed", "__type": "Float", "__value": 0, "__tile": null, "defUid": 4, "realEditorValues": [] },
-								{ "__identifier": "creation_code", "__type": "String", "__value": "", "__tile": null, "defUid": 5, "realEditorValues": [] }
+								{ "__identifier": "creation_code", "__type": "String", "__value": "scrKillPlayer();", "__tile": null, "defUid": 5, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["scrKillPlayer();"]
+								}] }
 							]
 						},
 						{
