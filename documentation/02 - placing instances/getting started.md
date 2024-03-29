@@ -57,8 +57,10 @@ These have the extra functionality to scale the objects that they contain to fit
 This behavior is best for wall objects and the like.
 
 1) Create a new enum layer
-2) Creata a new enum value and name it after the object want it to represent (you might have to change the identifiers format convention depending on the name of your object)
-![Create an enum](enum-instance-create-enum.png)
-## Tiles
+2) Create a new enum value and name it after the object want it to represent.
+Make sure that the object fits the grid size of the IntGrid layer, else it will be scaled wrong.
+*ps: you might have to change the identifiers format convention depending on the name of your object*
+![Create an enum instance layer](enum-instance-create.png)
 
-## Limitations
+With this set up we get automatic scaling of objects on the layer, while maintaining the flexibility of being able to carve a path through a wall without having to manually resize those instances.
+![Enum instance scaling](enum-instance-scaling.png)

@@ -69,6 +69,7 @@
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprBlock</sprite>
+    <sprite>sprites\sprBlock16px</sprite>
     <sprite>sprites\sprSpikeUp</sprite>
     <sprite>sprites\sprSpikeRight</sprite>
     <sprite>sprites\sprSpikeDown</sprite>
@@ -174,6 +175,7 @@
     </objects>
     <object>objects\objPlayerStart</object>
     <object>objects\objCamera</object>
+    <object>objects\objBlock16px</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rInit</room>

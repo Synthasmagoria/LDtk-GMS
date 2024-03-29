@@ -62,7 +62,7 @@
 			"parallaxScaling": true,
 			"requiredTags": [],
 			"excludedTags": [],
-			"intGridValues": [{ "value": 1, "identifier": "objBlock", "color": "#000000", "tile": null }],
+			"intGridValues": [{ "value": 1, "identifier": "objBlock16px", "color": "#000000", "tile": null }],
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": null,
