@@ -49,9 +49,9 @@ var _data = ds_map_create();
     ds_map_add(_data, "room_start_script", -1);
     
     // TODO: Deprecate this // The tile depth of the first ldtk tile layer / auto layer / intgrid w tiles
-    ds_map_add(_data, "tile_layer_depth_start", -50000);
+    ds_map_add(_data, "tile_layer_depth_start", -50);
     
     // TODO: Deprecate this // The amount the depth will change for every subsequent tile layer / auto layer / intgrid w tiles
-    ds_map_add(_data, "tile_layer_depth_increment", 100000);
+    ds_map_add(_data, "tile_layer_depth_increment", 100);
 
 return _data;
