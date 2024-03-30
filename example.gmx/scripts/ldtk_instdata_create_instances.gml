@@ -12,8 +12,5 @@ for (var i = 0, n = ds_list_size(instances); i < n; i++)
     _inst.image_xscale = ds_map_find_value(_inst_data, "image_xscale");
     _inst.image_yscale = ds_map_find_value(_inst_data, "image_yscale");
     
-    with (_inst)
-        event_perform(ev_other, ev_room_start);
-    
     ds_list_add(lvinst_out, _inst);
 }

@@ -26,8 +26,5 @@ for (var i = 0, n = ds_list_size(instances); i < n; i++)
             ds_map_find_value(_local_variable, "value"));
     }
     
-    with (_inst)
-        event_perform(ev_other, ev_room_start);
-    
     ds_list_add(lvinst_out, _inst);
 }

@@ -73,7 +73,7 @@
     <sprite>sprites\sprSpikeRight</sprite>
     <sprite>sprites\sprSpikeDown</sprite>
     <sprite>sprites\sprSpikeLeft</sprite>
-    <sprite>sprites\sprWarpMask</sprite>
+    <sprite>sprites\sprMask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bOverworldTiles</background>
@@ -158,6 +158,7 @@
     </scripts>
     <script>scripts\scrKillPlayer.gml</script>
     <script>scripts\scrSetBackground.gml</script>
+    <script>scripts\scrMakeTriggerable.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objWorld</object>
@@ -174,6 +175,7 @@
       <object>objects\objSpikeDown</object>
       <object>objects\objSpikeLeft</object>
       <object>objects\objHazard</object>
+      <object>objects\objTrigger</object>
     </objects>
     <objects name="Level assets">
       <object>objects\objPlayerStart</object>
