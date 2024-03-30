@@ -179,6 +179,12 @@
   <rooms name="rooms">
     <room>rooms\rInit</room>
     <room>rooms\rSample</room>
+    <rooms name="baked">
+      <room>rooms\rWorld01</room>
+      <room>rooms\rWorld02</room>
+      <room>rooms\rWorld03</room>
+      <room>rooms\rWorld04</room>
+    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

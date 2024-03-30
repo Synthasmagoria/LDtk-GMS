@@ -32,6 +32,8 @@
 
 ldtk_init("worlds", objPlayer, scrKillPlayer);
 
+//ldtk_generate_rooms("world.ldtk");
+
 player_x = 240;
 player_y = 16;
 
