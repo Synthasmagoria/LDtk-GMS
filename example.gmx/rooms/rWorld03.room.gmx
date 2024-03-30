@@ -84,6 +84,8 @@
     <instance objName="objSpikeUp" x="480" y="320" name="inst_0000801E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpikeUp" x="496" y="320" name="inst_0000801F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objCamera" x="160" y="112" name="inst_00008020" locked="0" code="" scaleX="-16" scaleY="-16" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomChanger" x="-32" y="0" name="inst_7FF61AD2" locked="0" code="warp_room = rWorld04;&#xA;xoffset = room_width;&#xA;" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomChanger" x="0" y="-32" name="inst_95102AC7" locked="0" code="warp_room = rWorld02;&#xA;yoffset = room_height;&#xA;" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bOverworldTiles" x="0" y="0" w="16" h="16" xo="160" yo="32" id="10032768" name="inst_00008000" depth="-50000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

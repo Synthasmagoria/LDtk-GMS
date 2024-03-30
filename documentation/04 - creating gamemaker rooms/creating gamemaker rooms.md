@@ -7,3 +7,7 @@ After all, loading a massive json file when traversing the game's levels is a CP
 3) Drag the rooms into your gamemaker project
 
 ![Adding the rooms to gamemaker](adding-generated-rooms.png)
+
+Note that LDtk-gms doesn't automatically connect your levels.
+You will have to add warp objects yourself, either in LDtk or in the rooms after they've been generated.
+You can always customize ldtk_generate_rooms if you want too.

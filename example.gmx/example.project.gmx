@@ -74,6 +74,7 @@
     <sprite>sprites\sprSpikeRight</sprite>
     <sprite>sprites\sprSpikeDown</sprite>
     <sprite>sprites\sprSpikeLeft</sprite>
+    <sprite>sprites\sprWarpMask</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bOverworldTiles</background>
@@ -175,9 +176,12 @@
     <object>objects\objPlayerStart</object>
     <object>objects\objCamera</object>
     <object>objects\objBlock16px</object>
+    <object>objects\objRoomChanger</object>
+    <object>objects\objClickWarp</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rInit</room>
+    <room>rooms\rWorldSelect</room>
     <room>rooms\rSample</room>
     <rooms name="baked">
       <room>rooms\rWorld01</room>

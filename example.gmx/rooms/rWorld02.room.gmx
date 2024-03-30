@@ -59,6 +59,8 @@
     <instance objName="objBlock16px" x="288" y="272" name="inst_00008005" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="objBlock16px" x="512" y="272" name="inst_00008006" locked="0" code="" scaleX="8" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="objCamera" x="48" y="32" name="inst_00008007" locked="0" code="" scaleX="-16" scaleY="-16" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomChanger" x="-32" y="0" name="inst_13AA19B3" locked="0" code="warp_room = rWorld01;&#xA;xoffset = room_width;&#xA;" scaleX="1" scaleY="11" colour="4294967295" rotation="0"/>
+    <instance objName="objRoomChanger" x="0" y="352" name="inst_2A72D12B" locked="0" code="warp_room = rWorld03;&#xA;warp_room = -room_height;&#xA;" scaleX="20" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bOverworldTiles" x="528" y="64" w="16" h="16" xo="16" yo="16" id="10032768" name="inst_00008000" depth="-50000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
