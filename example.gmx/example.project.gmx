@@ -76,8 +76,7 @@
     <sprite>sprites\sprSpikeLeft</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\bBackground</background>
-    <background>background\bTiles</background>
+    <background>background\bOverworldTiles</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">

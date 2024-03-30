@@ -74,6 +74,10 @@ if (_on_block &amp;&amp; _input_jump_press) {
     vertical_speed = -jump_strength;
 }
 
+if (_input_jump_release &amp;&amp; vertical_speed &lt; 0.0) {
+    vertical_speed *= 0.45;
+}
+
 if (place_meeting(x + _move_x, y, objBlock)) {
     var _dir_x = sign(_move_x);
     while (!place_meeting(x + _dir_x, y, objBlock)) {

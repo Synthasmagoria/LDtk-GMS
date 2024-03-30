@@ -32,8 +32,11 @@
 
 ldtk_init("worlds", objPlayer, scrKillPlayer);
 
+player_x = 240;
+player_y = 16;
+
 room_goto_next();
-instance_create(240, 16, objPlayer);
+instance_create(player_x, player_y, objPlayer);
 texture_set_interpolation(false);
 </string>
           </argument>
@@ -70,7 +73,9 @@ if (keyboard_check_pressed(vk_f4)) {
 }
 
 if (keyboard_check_pressed(ord("R"))) {
+    instance_destroy(objPlayer);
     room_restart();
+    instance_create(player_x, player_y, objPlayer);
 }
 </string>
           </argument>
