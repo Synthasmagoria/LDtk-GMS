@@ -163,10 +163,7 @@
   <objects name="objects">
     <object>objects\objWorld</object>
     <objects name="LdtkGms">
-      <object>objects\objLdtkOutsideRoomChanger</object>
-      <object>objects\objLdtkCameraSnap</object>
       <object>objects\objLdtkWorldManager</object>
-      <object>objects\objLdtkCameraSmooth</object>
       <object>objects\objDerpXmlWrite</object>
     </objects>
     <objects name="hazards">
