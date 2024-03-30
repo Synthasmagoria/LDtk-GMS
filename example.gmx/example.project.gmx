@@ -69,7 +69,6 @@
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprBlock</sprite>
-    <sprite>sprites\sprBlock16px</sprite>
     <sprite>sprites\sprSpikeUp</sprite>
     <sprite>sprites\sprSpikeRight</sprite>
     <sprite>sprites\sprSpikeDown</sprite>
@@ -78,6 +77,9 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bOverworldTiles</background>
+    <background>background\bCloudsRepeating</background>
+    <background>background\bSky</background>
+    <background>background\bSmallCloudsRepeating</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -154,11 +156,10 @@
       </scripts>
     </scripts>
     <script>scripts\scrKillPlayer.gml</script>
+    <script>scripts\scrSetBackground.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\objWorld</object>
-    <object>objects\objPlayer</object>
-    <object>objects\objBlock</object>
     <objects name="LdtkGms">
       <object>objects\objLdtkOutsideRoomChanger</object>
       <object>objects\objLdtkCameraSnap</object>
@@ -173,11 +174,14 @@
       <object>objects\objSpikeLeft</object>
       <object>objects\objHazard</object>
     </objects>
-    <object>objects\objPlayerStart</object>
-    <object>objects\objCamera</object>
-    <object>objects\objBlock16px</object>
-    <object>objects\objRoomChanger</object>
-    <object>objects\objClickWarp</object>
+    <objects name="Level assets">
+      <object>objects\objPlayerStart</object>
+      <object>objects\objClickWarp</object>
+      <object>objects\objRoomChanger</object>
+      <object>objects\objBlock</object>
+      <object>objects\objCamera</object>
+      <object>objects\objPlayer</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rInit</room>

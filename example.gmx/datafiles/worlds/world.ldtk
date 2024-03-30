@@ -11,7 +11,7 @@
 	"iid": "b42af530-d7b0-11ee-8fd3-0d062342134f",
 	"jsonVersion": "1.3.3",
 	"appBuildId": 467698,
-	"nextUid": 21,
+	"nextUid": 22,
 	"identifierStyle": "Free",
 	"toc": [],
 	"worldLayout": "Free",
@@ -92,7 +92,7 @@
 			"parallaxScaling": true,
 			"requiredTags": [],
 			"excludedTags": [],
-			"intGridValues": [{ "value": 1, "identifier": "objBlock16px", "color": "#000000", "tile": null }],
+			"intGridValues": [{ "value": 1, "identifier": "objBlock", "color": "#000000", "tile": null }],
 			"autoRuleGroups": [],
 			"autoSourceLayerDefUid": null,
 			"tilesetDefUid": null,
@@ -505,7 +505,42 @@
 				"averageColors": "0000245324532453000016531653165300001546154615462453f684f684f6841553f874f874f8741546f768f868f868f684f434f333f434f874f333f223f333f868f444f333f444f434f434f434f434f334f334f333f334f544f444f444f444f544f444f554f444f344f443f554f443f555f445f656f445f434f434f434f434f344f334f333f334f555f444f444f444f434f434f333f434f344f333f223f333f554f444f333f444f434f434f434f434f334f334f333f334f544f444f444f444f434f544f434f434f344f344f334f344f555f555f544f555"
 			}
 		}
-	], "enums": [], "externalEnums": [], "levelFields": [] },
+	], "enums": [], "externalEnums": [], "levelFields": [
+		{
+			"identifier": "room_start_script",
+			"doc": "The name of the script to run at room start",
+			"__type": "String",
+			"uid": 21,
+			"type": "F_String",
+			"isArray": false,
+			"canBeNull": false,
+			"arrayMinLength": null,
+			"arrayMaxLength": null,
+			"editorDisplayMode": "Hidden",
+			"editorDisplayScale": 0,
+			"editorDisplayPos": "Above",
+			"editorLinkStyle": "StraightArrow",
+			"editorAlwaysShow": false,
+			"editorShowInWorld": true,
+			"editorCutLongValues": true,
+			"editorTextSuffix": null,
+			"editorTextPrefix": null,
+			"useForSmartColor": false,
+			"min": null,
+			"max": null,
+			"regex": null,
+			"acceptFileTypes": null,
+			"defaultOverride": null,
+			"textLanguageMode": null,
+			"symmetricalRef": false,
+			"autoChainRef": true,
+			"allowOutOfLevelRef": true,
+			"allowedRefs": "OnlySame",
+			"allowedRefsEntityUid": null,
+			"allowedRefTags": [],
+			"tilesetUid": null
+		}
+	] },
 	"levels": [
 		{
 			"identifier": "Level_0",
@@ -526,7 +561,10 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [],
+			"fieldInstances": [{ "__identifier": "room_start_script", "__type": "String", "__value": "scrSetBackground", "__tile": null, "defUid": 21, "realEditorValues": [{
+				"id": "V_String",
+				"params": ["scrSetBackground"]
+			}] }],
 			"layerInstances": [
 				{
 					"__identifier": "Terrain",
@@ -1070,7 +1108,10 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [],
+			"fieldInstances": [{ "__identifier": "room_start_script", "__type": "String", "__value": "scrSetBackground", "__tile": null, "defUid": 21, "realEditorValues": [{
+				"id": "V_String",
+				"params": ["scrSetBackground"]
+			}] }],
 			"layerInstances": [
 				{
 					"__identifier": "Terrain",
@@ -1399,7 +1440,10 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [],
+			"fieldInstances": [{ "__identifier": "room_start_script", "__type": "String", "__value": "scrSetBackground", "__tile": null, "defUid": 21, "realEditorValues": [{
+				"id": "V_String",
+				"params": ["scrSetBackground"]
+			}] }],
 			"layerInstances": [
 				{
 					"__identifier": "Terrain",
@@ -1877,7 +1921,10 @@
 			"__smartColor": "#ADADB5",
 			"__bgPos": null,
 			"externalRelPath": null,
-			"fieldInstances": [],
+			"fieldInstances": [{ "__identifier": "room_start_script", "__type": "String", "__value": "scrSetBackground", "__tile": null, "defUid": 21, "realEditorValues": [{
+				"id": "V_String",
+				"params": ["scrSetBackground"]
+			}] }],
 			"layerInstances": [
 				{
 					"__identifier": "Terrain",
