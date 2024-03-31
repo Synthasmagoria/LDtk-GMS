@@ -9,6 +9,6 @@ Whatever the case, just make sure you open your project by opening a fresh insta
 
 ## Executing save.bat when the game is not running
 Often results in the following error message:
-![Executing save.bat](executing-savebat.png)
+![Executing save.bat](img-troubleshooting/executing-savebat.png)
 This just means that the command couldn't save to where the game would be if it were running.
 Your LDtk world still saved fine, just dismiss the error.

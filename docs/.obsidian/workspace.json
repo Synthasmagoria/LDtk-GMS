@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tips and tricks.md",
+                "file": "install instructions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tips and tricks.md",
+                "file": "install instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tips and tricks.md",
+                "file": "install instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tips and tricks.md"
+                "file": "install instructions.md"
               }
             }
           }
@@ -148,8 +148,11 @@
   },
   "active": "343e1de633d8c7b4",
   "lastOpenFiles": [
-    "img.md",
+    "placing instances.md",
+    "limitations.md",
+    "install instructions.md",
     "tips and tricks.md",
+    "img.md",
     "index.md"
   ]
 }

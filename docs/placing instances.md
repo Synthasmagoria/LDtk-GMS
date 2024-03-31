@@ -16,11 +16,11 @@ The general rule is: if you need creation code for an instance, then you should 
 1) Create an entity
 2) Add a single string value to it and call it object_index
 3) Put the name of the object into the "Default value" field
-![How to create an entity instance](how-to-create-an-entity-instance.png)
+![How to create an entity instance](img-placing-instances/how-to-create-an-entity-instance.png)
 
 #### Changing a variable of an entity instance using fields
 To change instance variables add more fields and name them after the variable you want to change.
-![How to change an instance variable](entity-instance-variable.png)
+![How to change an instance variable](img-placing-instances/entity-instance-variable.png)
 
 The limitation to this is that you cannot easily reference other gamemaker resources. Example: you want to set the sprite index.
 - You create a string field and name it "sprite_index"
@@ -33,19 +33,19 @@ Because if sprPlayer is a sprite then referencing it in GML actually becomes a n
 
 #### Calling functions and referencing resources using lua
 To run creation code on your instance you can add a "multilines" field to your entity. Name the field "creation_code". You can have LDtk add basic syntax highlighting by setting the language field to lua.
-![Entity instance creation code](entity-instance-creation-code.png)
+![Entity instance creation code](img-placing-instances/entity-instance-creation-code.png)
 Now you can write code that references your sprite
-![Creation code example](creation-code-example.png)
+![Creation code example](img-placing-instances/creation-code-example.png)
 Note that in order to reference the instance's sprite index you'll have to use "id". Just doing `sprite_index = sprPlayer` will not set the sprite_index. It boils down to "Lua is not GML". For further explanation see the Lua limitations document. By default in LDtk-gms you'll be able to reference all sprites, objects, sounds, rooms, scripts, and paths in Lua - see the lua bindings folder in ldtk gms scripts folder to see how this works (specifically lua_ref_resources_init).
 
 ### Tile instances (convenient)
 Chances are that you want to place a bunch of instances without customizing each one. Additionally, using entities can make the ui very cluttered. Using tilemaps for some objects is ideal for this.
 1) Add an image to your included files containing the visual assets for the objects you're going to be placing in the world.
-![Tile instances visual assets](tile-instances-visual-assets.png)
+![Tile instances visual assets](img-placing-instances/tile-instances-visual-assets.png)
 2) Add a tileset to your LDtk world using the image you just added.
-![LDtk tileset](tile-instances-ldtk-tileset.png)
+![LDtk tileset](img-placing-instances/tile-instances-ldtk-tileset.png)
 3) Click on each tile and add json containing an object index key containing the name of the object you want the tile to correspond with.
-![Binding object to tileset using JSON](tile-instances-json-binding.png)
+![Binding object to tileset using JSON](img-placing-instances/tile-instances-json-binding.png)
 
 Tile instances are a lot easier to work with when you have a lot of instances to place.
 But you cannot change their individual variables or add lua scripts to them.
@@ -60,7 +60,7 @@ This behavior is best for wall objects and the like.
 2) Create a new enum value and name it after the object want it to represent.
 Make sure that the object fits the grid size of the IntGrid layer, else it will be scaled wrong.
 *ps: you might have to change the identifiers format convention depending on the name of your object*
-![Create an enum instance layer](enum-instance-create.png)
+![Create an enum instance layer](img-placing-instances/enum-instance-create.png)
 
 With this set up we get automatic scaling of objects on the layer, while maintaining the flexibility of being able to carve a path through a wall without having to manually resize those instances.
-![Enum instance scaling](enum-instance-scaling.png)
+![Enum instance scaling](img-placing-instances/enum-instance-scaling.png)
