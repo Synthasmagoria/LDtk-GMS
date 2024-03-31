@@ -2,8 +2,11 @@
 LDTK-GMS is a Gamemaker Studio 1.4.x extension that makes it possible to load [LDTK](https://ldtk.io/")
 world files into a game at runtime. Effectively acting as a replacement to the room editor.
 
-[<img src="https://img.youtube.com/vi/iGASs6KwU2M?si=nmFCrBmMHERrQHcl/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/iGASs6KwU2M?si=nmFCrBmMHERrQHcl)
+
+
+https://github.com/Synthasmagoria/LDtk-GMS/assets/50552091/64b6c27f-0d7e-404a-9888-7911474bdb02
+
+
 
 ## Features
 - Reloading levels at runtime to increase level design iteration time (using [nsfs](https://yellowafterlife.itch.io/gamemaker-nsfs))
