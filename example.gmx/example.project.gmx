@@ -146,7 +146,6 @@
           <script>scripts\ldtk_generate_save_bat.gml</script>
           <script>scripts\ldtk_player_set.gml</script>
           <script>scripts\ldtk_player_get.gml</script>
-          <script>scripts\__ldtk_general_internal_utility.gml</script>
         </scripts>
         <scripts name="lua bindings">
           <script>scripts\lua_ref_init.gml</script>
