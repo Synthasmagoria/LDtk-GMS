@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "3bf37200e6e57a3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c424f4a6e9ccb079",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "343e1de633d8c7b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tips and tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "30b1394620904ca1",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ababc3ed25885b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6de6d1ac24f2b0a0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a86a1019b13c6795",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cf95b3633c9888fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8565e300b0893c2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a26a4a058e3ea33",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8190658511927fb9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tips and tricks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "445ccc1abdb44102",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tips and tricks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ca6bbd981609f98b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e6c94d98c4cbaab4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tips and tricks.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6de6d1ac24f2b0a0",
+  "lastOpenFiles": [
+    "index.md"
+  ]
+}
