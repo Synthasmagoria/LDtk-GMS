@@ -3,7 +3,7 @@
   <name>LDtk-GMS</name>
   <version>0.2.8</version>
   <packageID></packageID>
-  <ProductID></ProductID>
+  <ProductID>ACBD3CFF4E539AD869A0E8E3B4B022DD</ProductID>
   <date>23/03/23</date>
   <license>Free to use, also for commercial games.</license>
   <description></description>
@@ -30,10 +30,7 @@
   </ConfigOptions>
   <androidPermissions/>
   <IncludedResources>
-    <Resource>Objects\LdtkGms\objLdtkOutsideRoomChanger</Resource>
-    <Resource>Objects\LdtkGms\objLdtkCameraSnap</Resource>
     <Resource>Objects\LdtkGms\objLdtkWorldManager</Resource>
-    <Resource>Objects\LdtkGms\objLdtkCameraSmooth</Resource>
     <Resource>Objects\LdtkGms\objDerpXmlWrite</Resource>
     <Resource>Included Files\ldtkgms_config.json</Resource>
     <Resource>Scripts\Extensions\LDtkGms\ldtk_init</Resource>
@@ -79,7 +76,6 @@
     <Resource>Scripts\Extensions\LDtkGms\internal\ldtk_generate_save_bat</Resource>
     <Resource>Scripts\Extensions\LDtkGms\internal\ldtk_player_set</Resource>
     <Resource>Scripts\Extensions\LDtkGms\internal\ldtk_player_get</Resource>
-    <Resource>Scripts\Extensions\LDtkGms\internal\__ldtk_general_internal_utility</Resource>
     <Resource>Scripts\Extensions\LDtkGms\lua bindings\lua_ref_init</Resource>
     <Resource>Scripts\Extensions\LDtkGms\lua bindings\lua_ref_variable_instance_init</Resource>
     <Resource>Scripts\Extensions\LDtkGms\lua bindings\lua_ref_resources_init</Resource>

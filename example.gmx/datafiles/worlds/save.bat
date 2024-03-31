@@ -1,1 +1,0 @@
-Xcopy "S:\All\Projects\Active\LDtk-GMS-release\example.gmx\datafiles\worlds" "C:\Users\Synthas\AppData\Local\Temp\gm_ttt_13613\gm_ttt_49856\\worlds" /y /c /q
