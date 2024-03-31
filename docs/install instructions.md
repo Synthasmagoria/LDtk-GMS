@@ -5,7 +5,7 @@
 ![Open properties](img-install-instructions/open-properties.png)
 
 3) Import all the resources in the extension from the import tab in the properties window
-![Import resources](img-install-instructions/import-resources.png)
+![Import resources](img-install-instructions/import-resources.png)<br>
 After completing this step a bunch of scripts, objects, and a included files should have appeared in you project.
 
 4) Drag Apollo .gmez into IDE (no importing required)

@@ -13,13 +13,13 @@ There are a few ways to place instances using LDtk they vary depending on your p
 The most flexible way to add an instance is using Entities.
 The general rule is: if you need creation code for an instance, then you should use an entity.
 
-1) Create an entity
-2) Add a single string value to it and call it object_index
-3) Put the name of the object into the "Default value" field
+1) Create an entity<br>
+2) Add a single string value to it and call it object_index<br>
+3) Put the name of the object into the "Default value" field<br>
 ![How to create an entity instance](img-placing-instances/how-to-create-an-entity-instance.png)
 
 #### Changing a variable of an entity instance using fields
-To change instance variables add more fields and name them after the variable you want to change.
+To change instance variables add more fields and name them after the variable you want to change.<br>
 ![How to change an instance variable](img-placing-instances/entity-instance-variable.png)
 
 The limitation to this is that you cannot easily reference other gamemaker resources. Example: you want to set the sprite index.
@@ -33,9 +33,9 @@ Because if sprPlayer is a sprite then referencing it in GML actually becomes a n
 
 #### Calling functions and referencing resources using lua
 To run creation code on your instance you can add a "multilines" field to your entity. Name the field "creation_code". You can have LDtk add basic syntax highlighting by setting the language field to lua.
-![Entity instance creation code](img-placing-instances/entity-instance-creation-code.png)
+![Entity instance creation code](img-placing-instances/entity-instance-creation-code.png)<br>
 Now you can write code that references your sprite
-![Creation code example](img-placing-instances/creation-code-example.png)
+![Creation code example](img-placing-instances/creation-code-example.png)<br>
 Note that in order to reference the instance's sprite index you'll have to use "id". Just doing `sprite_index = sprPlayer` will not set the sprite_index. It boils down to "Lua is not GML". For further explanation see the Lua limitations document. By default in LDtk-gms you'll be able to reference all sprites, objects, sounds, rooms, scripts, and paths in Lua - see the lua bindings folder in ldtk gms scripts folder to see how this works (specifically lua_ref_resources_init).
 
 ### Tile instances (convenient)
