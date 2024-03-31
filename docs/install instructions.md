@@ -1,7 +1,7 @@
 # Install instructions
 1) Drag ldtk .gmez (gamemaker extension file) into IDE.
 
-2) Right-click on extension in IDE and open the properties.
+2) Right-click on extension in IDE and open the properties.<br>
 ![Open properties](img-install-instructions/open-properties.png)
 
 3) Import all the resources in the extension from the import tab in the properties window
