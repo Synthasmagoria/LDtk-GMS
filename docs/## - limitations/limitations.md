@@ -22,4 +22,4 @@ if scrGetImportantVariable() == 5 then
 end
 ```
 
-For these reasons I suggest you only write Lua code in creation_code fields that also works in GML.
+For these reasons I suggest you only write Lua code in creation_code fields that also works in GML. Or feel free to customize ldtk_generate_rooms so that it converts basic Lua syntax to valid GML - such as replacing "then" with "{" and "end" with "}".
