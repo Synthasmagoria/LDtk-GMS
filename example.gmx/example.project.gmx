@@ -62,8 +62,6 @@
   </datafiles>
   <NewExtensions>
     <extension index="0">extensions\LDtk-GMS</extension>
-    <extension index="1">extensions\Apollo</extension>
-    <extension index="2">extensions\nsfs</extension>
   </NewExtensions>
   <sounds name="sound"/>
   <sprites name="sprites">
