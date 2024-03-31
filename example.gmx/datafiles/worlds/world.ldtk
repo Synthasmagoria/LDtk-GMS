@@ -11,7 +11,7 @@
 	"iid": "b42af530-d7b0-11ee-8fd3-0d062342134f",
 	"jsonVersion": "1.3.3",
 	"appBuildId": 467698,
-	"nextUid": 37,
+	"nextUid": 42,
 	"identifierStyle": "Free",
 	"toc": [],
 	"worldLayout": "Free",
@@ -472,7 +472,7 @@
 			]
 		},
 		{
-			"identifier": "Spike_up",
+			"identifier": "Trap",
 			"uid": 27,
 			"tags": [],
 			"exportToToc": false,
@@ -529,7 +529,7 @@
 					"acceptFileTypes": null,
 					"defaultOverride": {
 						"id": "V_String",
-						"params": ["objSpikeUp"]
+						"params": ["objTrap"]
 					},
 					"textLanguageMode": null,
 					"symmetricalRef": false,
@@ -541,11 +541,79 @@
 					"tilesetUid": null
 				},
 				{
-					"identifier": "creation_code",
+					"identifier": "hs",
+					"doc": null,
+					"__type": "Float",
+					"uid": 37,
+					"type": "F_Float",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 0,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				},
+				{
+					"identifier": "vs",
+					"doc": null,
+					"__type": "Float",
+					"uid": 38,
+					"type": "F_Float",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 0,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				},
+				{
+					"identifier": "trg_id",
 					"doc": null,
 					"__type": "String",
-					"uid": 30,
-					"type": "F_Text",
+					"uid": 39,
+					"type": "F_String",
 					"isArray": false,
 					"canBeNull": true,
 					"arrayMinLength": null,
@@ -565,7 +633,7 @@
 					"regex": null,
 					"acceptFileTypes": null,
 					"defaultOverride": null,
-					"textLanguageMode": "LangLua",
+					"textLanguageMode": null,
 					"symmetricalRef": false,
 					"autoChainRef": true,
 					"allowOutOfLevelRef": true,
@@ -646,7 +714,7 @@
 					"tilesetUid": null
 				},
 				{
-					"identifier": "trigger_id",
+					"identifier": "trg_id",
 					"doc": null,
 					"__type": "String",
 					"uid": 34,
@@ -705,6 +773,40 @@
 					"acceptFileTypes": null,
 					"defaultOverride": null,
 					"textLanguageMode": null,
+					"symmetricalRef": false,
+					"autoChainRef": true,
+					"allowOutOfLevelRef": true,
+					"allowedRefs": "OnlySame",
+					"allowedRefsEntityUid": null,
+					"allowedRefTags": [],
+					"tilesetUid": null
+				},
+				{
+					"identifier": "creation_code",
+					"doc": null,
+					"__type": "String",
+					"uid": 41,
+					"type": "F_Text",
+					"isArray": false,
+					"canBeNull": false,
+					"arrayMinLength": null,
+					"arrayMaxLength": null,
+					"editorDisplayMode": "Hidden",
+					"editorDisplayScale": 0,
+					"editorDisplayPos": "Above",
+					"editorLinkStyle": "StraightArrow",
+					"editorAlwaysShow": false,
+					"editorShowInWorld": true,
+					"editorCutLongValues": true,
+					"editorTextSuffix": null,
+					"editorTextPrefix": null,
+					"useForSmartColor": false,
+					"min": null,
+					"max": null,
+					"regex": null,
+					"acceptFileTypes": null,
+					"defaultOverride": null,
+					"textLanguageMode": "LangLua",
 					"symmetricalRef": false,
 					"autoChainRef": true,
 					"allowOutOfLevelRef": true,
@@ -1011,6 +1113,7 @@
 						{ "px": [16,112], "src": [32,32], "f": 0, "t": 26, "d": [281], "a": 1 },
 						{ "px": [32,112], "src": [32,32], "f": 0, "t": 26, "d": [282], "a": 1 },
 						{ "px": [48,112], "src": [48,32], "f": 0, "t": 27, "d": [283], "a": 1 },
+						{ "px": [464,112], "src": [0,0], "f": 0, "t": 0, "d": [309], "a": 1 },
 						{ "px": [0,128], "src": [32,48], "f": 0, "t": 38, "d": [320], "a": 1 },
 						{ "px": [16,128], "src": [32,48], "f": 0, "t": 38, "d": [321], "a": 1 },
 						{ "px": [32,128], "src": [32,48], "f": 0, "t": 38, "d": [322], "a": 1 },
@@ -1472,7 +1575,7 @@
 							"fieldInstances": [{ "__identifier": "object_index", "__type": "String", "__value": "objCamera", "__tile": null, "defUid": 14, "realEditorValues": [] }]
 						},
 						{
-							"__identifier": "Spike_up",
+							"__identifier": "Trap",
 							"__grid": [29,8],
 							"__pivot": [0,0],
 							"__tags": [],
@@ -1484,15 +1587,17 @@
 							"defUid": 27,
 							"px": [464,128],
 							"fieldInstances": [
-								{ "__identifier": "object_index", "__type": "String", "__value": "objSpikeUp", "__tile": null, "defUid": 28, "realEditorValues": [] },
-								{ "__identifier": "creation_code", "__type": "String", "__value": "scrMakeTriggerable(id, \"trap01\", 0, -3);", "__tile": null, "defUid": 30, "realEditorValues": [{
+								{ "__identifier": "object_index", "__type": "String", "__value": "objTrap", "__tile": null, "defUid": 28, "realEditorValues": [] },
+								{ "__identifier": "hs", "__type": "Float", "__value": 0, "__tile": null, "defUid": 37, "realEditorValues": [] },
+								{ "__identifier": "vs", "__type": "Float", "__value": -3, "__tile": null, "defUid": 38, "realEditorValues": [{ "id": "V_Float", "params": [-3] }] },
+								{ "__identifier": "trg_id", "__type": "String", "__value": "trap01", "__tile": null, "defUid": 39, "realEditorValues": [{
 									"id": "V_String",
-									"params": ["scrMakeTriggerable(id, \"trap01\", 0, -3);"]
+									"params": ["trap01"]
 								}] }
 							]
 						},
 						{
-							"__identifier": "Spike_up",
+							"__identifier": "Trap",
 							"__grid": [30,8],
 							"__pivot": [0,0],
 							"__tags": [],
@@ -1504,15 +1609,17 @@
 							"defUid": 27,
 							"px": [480,128],
 							"fieldInstances": [
-								{ "__identifier": "object_index", "__type": "String", "__value": "objSpikeUp", "__tile": null, "defUid": 28, "realEditorValues": [] },
-								{ "__identifier": "creation_code", "__type": "String", "__value": "scrMakeTriggerable(id, \"trap01\", 0, -3);", "__tile": null, "defUid": 30, "realEditorValues": [{
+								{ "__identifier": "object_index", "__type": "String", "__value": "objTrap", "__tile": null, "defUid": 28, "realEditorValues": [] },
+								{ "__identifier": "hs", "__type": "Float", "__value": 0, "__tile": null, "defUid": 37, "realEditorValues": [] },
+								{ "__identifier": "vs", "__type": "Float", "__value": -3, "__tile": null, "defUid": 38, "realEditorValues": [{ "id": "V_Float", "params": [-3] }] },
+								{ "__identifier": "trg_id", "__type": "String", "__value": "trap01", "__tile": null, "defUid": 39, "realEditorValues": [{
 									"id": "V_String",
-									"params": ["scrMakeTriggerable(id, \"trap01\", 0, -3);"]
+									"params": ["trap01"]
 								}] }
 							]
 						},
 						{
-							"__identifier": "Spike_up",
+							"__identifier": "Trap",
 							"__grid": [31,8],
 							"__pivot": [0,0],
 							"__tags": [],
@@ -1524,10 +1631,12 @@
 							"defUid": 27,
 							"px": [496,128],
 							"fieldInstances": [
-								{ "__identifier": "object_index", "__type": "String", "__value": "objSpikeUp", "__tile": null, "defUid": 28, "realEditorValues": [] },
-								{ "__identifier": "creation_code", "__type": "String", "__value": "scrMakeTriggerable(id, \"trap01\", 0, -3);", "__tile": null, "defUid": 30, "realEditorValues": [{
+								{ "__identifier": "object_index", "__type": "String", "__value": "objTrap", "__tile": null, "defUid": 28, "realEditorValues": [] },
+								{ "__identifier": "hs", "__type": "Float", "__value": 0, "__tile": null, "defUid": 37, "realEditorValues": [] },
+								{ "__identifier": "vs", "__type": "Float", "__value": -3, "__tile": null, "defUid": 38, "realEditorValues": [{ "id": "V_Float", "params": [-3] }] },
+								{ "__identifier": "trg_id", "__type": "String", "__value": "trap01", "__tile": null, "defUid": 39, "realEditorValues": [{
 									"id": "V_String",
-									"params": ["scrMakeTriggerable(id, \"trap01\", 0, -3);"]
+									"params": ["trap01"]
 								}] }
 							]
 						},
@@ -1545,14 +1654,15 @@
 							"px": [464,0],
 							"fieldInstances": [
 								{ "__identifier": "object_index", "__type": "String", "__value": "objTrigger", "__tile": null, "defUid": 33, "realEditorValues": [] },
-								{ "__identifier": "trigger_id", "__type": "String", "__value": "trap01", "__tile": null, "defUid": 34, "realEditorValues": [{
+								{ "__identifier": "trg_id", "__type": "String", "__value": "trap01", "__tile": null, "defUid": 34, "realEditorValues": [{
 									"id": "V_String",
 									"params": ["trap01"]
 								}] },
 								{ "__identifier": "visible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 36, "realEditorValues": [{
 									"id": "V_Bool",
 									"params": [ true ]
-								}] }
+								}] },
+								{ "__identifier": "creation_code", "__type": "String", "__value": "", "__tile": null, "defUid": 41, "realEditorValues": [] }
 							]
 						}
 					]
@@ -1946,6 +2056,31 @@
 							"defUid": 13,
 							"px": [48,32],
 							"fieldInstances": [{ "__identifier": "object_index", "__type": "String", "__value": "objCamera", "__tile": null, "defUid": 14, "realEditorValues": [] }]
+						},
+						{
+							"__identifier": "Trigger",
+							"__grid": [32,12],
+							"__pivot": [0,0],
+							"__tags": [],
+							"__tile": { "tilesetUid": 32, "x": 320, "y": 16, "w": 16, "h": 16 },
+							"__smartColor": "#733E39",
+							"iid": "f82eaf80-d7b0-11ee-83d5-efb5394ffbe0",
+							"width": 96,
+							"height": 80,
+							"defUid": 31,
+							"px": [512,192],
+							"fieldInstances": [
+								{ "__identifier": "object_index", "__type": "String", "__value": "objTrigger", "__tile": null, "defUid": 33, "realEditorValues": [] },
+								{ "__identifier": "trg_id", "__type": "String", "__value": "", "__tile": null, "defUid": 34, "realEditorValues": [] },
+								{ "__identifier": "visible", "__type": "Bool", "__value": true, "__tile": null, "defUid": 36, "realEditorValues": [{
+									"id": "V_Bool",
+									"params": [ true ]
+								}] },
+								{ "__identifier": "creation_code", "__type": "String", "__value": "id.script = \"scrSetBackgroundColor\";\nid.script_arg = c_red;", "__tile": null, "defUid": 41, "realEditorValues": [{
+									"id": "V_String",
+									"params": ["id.script = \"scrSetBackgroundColor\";\\nid.script_arg = c_red;"]
+								}] }
+							]
 						}
 					]
 				},

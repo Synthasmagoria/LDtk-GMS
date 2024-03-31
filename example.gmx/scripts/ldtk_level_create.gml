@@ -23,10 +23,32 @@ ldtk_instdata_create_instances(
     ds_map_find_value(level_data, "light_instances"),
     _level_instance);
 
-ldtk_instdata_create_instances_variable(
+var _entity_instances = ds_list_create();
+ldtk_instdata_create_instances(
     ds_map_find_value(level_data, "instances"),
-    _level_instance,
-    lua_state);
+    _entity_instances);
+
+// TODO: This code is kinda wonky and needs to be refactored.
+var _instances = ds_map_find_value(level_data, "instances");
+var _inst_data, _inst, _local_variables, _local_variable;
+for (var i = 0, n = ds_list_size(_instances); i < n; i++) {
+    _inst = ds_list_find_value(_entity_instances, i);
+    _inst_data = ds_list_find_value(_instances, i);
+    _local_variables = ds_map_find_value(_inst_data, "instance_variables");
+    for (var ii = 0; ii < ds_list_size(_local_variables); ii++)
+    {
+        _local_variable = ds_list_find_value(_local_variables, ii);
+        variable_instance_set(
+            _inst,
+            ds_map_find_value(_local_variable, "name"),
+            ds_map_find_value(_local_variable, "value"));
+    }
+    
+    lua_global_set(lua_state, "id", _inst);
+    lua_add_code(lua_state, ds_map_find_value(_inst_data, "creation_code"));
+    
+    ds_list_add(_level_instance, _inst);
+}
 
 // Execute room start script
 var _room_start_script = ds_map_find_value(level_data, "room_start_script");
